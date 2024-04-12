@@ -11,6 +11,9 @@
 		906E923B2BC79FE800E2D63D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906E923A2BC79FE800E2D63D /* ContentView.swift */; };
 		906E923D2BC79FEA00E2D63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906E923C2BC79FEA00E2D63D /* Assets.xcassets */; };
 		906E92402BC79FEA00E2D63D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906E923F2BC79FEA00E2D63D /* Preview Assets.xcassets */; };
+		906E92472BC7A11900E2D63D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906E92462BC7A11900E2D63D /* User.swift */; };
+		906E92492BC7A12E00E2D63D /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906E92482BC7A12D00E2D63D /* Friend.swift */; };
+		906E924B2BC7A42900E2D63D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906E924A2BC7A42900E2D63D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		906E923A2BC79FE800E2D63D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		906E923C2BC79FEA00E2D63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		906E923F2BC79FEA00E2D63D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		906E92462BC7A11900E2D63D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		906E92482BC7A12D00E2D63D /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		906E924A2BC7A42900E2D63D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				906E92382BC79FE800E2D63D /* ChallengeJSONHWSApp.swift */,
 				906E923A2BC79FE800E2D63D /* ContentView.swift */,
+				906E924A2BC7A42900E2D63D /* DetailView.swift */,
+				906E92462BC7A11900E2D63D /* User.swift */,
+				906E92482BC7A12D00E2D63D /* Friend.swift */,
 				906E923C2BC79FEA00E2D63D /* Assets.xcassets */,
 				906E923E2BC79FEA00E2D63D /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				906E923B2BC79FE800E2D63D /* ContentView.swift in Sources */,
 				906E92392BC79FE800E2D63D /* ChallengeJSONHWSApp.swift in Sources */,
+				906E92472BC7A11900E2D63D /* User.swift in Sources */,
+				906E924B2BC7A42900E2D63D /* DetailView.swift in Sources */,
+				906E92492BC7A12E00E2D63D /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
